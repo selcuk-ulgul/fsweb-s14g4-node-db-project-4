@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+router.use(express.json());
 const checkId = require("./tarifler-middleware");
 const { idyeGoreTarifGetir } = require("./tarifler-model");
 

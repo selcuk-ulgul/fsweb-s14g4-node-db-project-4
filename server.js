@@ -3,5 +3,5 @@ const router = require("./api/tarifler-router");
 const server = express();
 
 server.use(express.json());
-server.use("/tarifler", router);
+server.use("/api/tarifler", router);
 module.exports = server;
